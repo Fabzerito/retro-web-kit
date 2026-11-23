@@ -1,0 +1,14 @@
+# OS & editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Node & build artifacts
+node_modules/
+dist/
+build/
+coverage/
+*.tgz
+npm-debug.log*

@@ -1,0 +1,240 @@
+// Era-authentic 90s/2000s retro themes and drop-in CSS/HTML/JS snippets.
+// Zero dependencies.
+
+export const THEMES = {
+  space: {
+    name: "space",
+    label: "1998 GeoCities Deep Space",
+    skyRgb: [0, 0, 51],
+    dividerColor: [255, 0, 255],
+    dividerStyle: "diamond",
+    buttonBg: [0, 0, 128],
+    buttonFg: [255, 255, 0],
+    buttonAccent: [255, 0, 255],
+    bannerBg: [0, 0, 102],
+    bannerFg: [255, 255, 0],
+    bannerAccent: [0, 255, 255],
+    css: {
+      bodyBg: "#000033",
+      text: "#ffffff",
+      pageBg: "#000066",
+      panelBg: "#000099",
+      panelTitleBg: "#000080",
+      panelTitleFg: "#ffffff",
+      heading: "#00ff00",
+      link: "#66ccff",
+      visited: "#cc99ff",
+      active: "#ff0000",
+      navLink: "#ffff00",
+      accent: "#ff00ff",
+      counterFg: "#00ff00",
+      counterBg: "#000000",
+      borderLight: "#dfdfdf",
+      borderDark: "#808080",
+      headingFont: '"Comic Sans MS", "Comic Sans", cursive',
+      bodyFont: '"Times New Roman", Times, serif',
+    },
+  },
+  "geocities-classic": {
+    name: "geocities-classic",
+    label: "1997 Classic Grey Chrome & Neon",
+    skyRgb: [0, 0, 0],
+    dividerColor: [0, 255, 255],
+    dividerStyle: "rainbow",
+    buttonBg: [192, 192, 192],
+    buttonFg: [0, 0, 128],
+    buttonAccent: [255, 0, 0],
+    bannerBg: [0, 0, 128],
+    bannerFg: [255, 255, 255],
+    bannerAccent: [255, 255, 0],
+    css: {
+      bodyBg: "#008080",
+      text: "#000000",
+      pageBg: "#c0c0c0",
+      panelBg: "#dfdfdf",
+      panelTitleBg: "#000080",
+      panelTitleFg: "#ffffff",
+      heading: "#800080",
+      link: "#0000ff",
+      visited: "#551a8b",
+      active: "#ff0000",
+      navLink: "#000080",
+      accent: "#ff0000",
+      counterFg: "#ff0000",
+      counterBg: "#000000",
+      borderLight: "#ffffff",
+      borderDark: "#808080",
+      headingFont: '"Comic Sans MS", "Comic Sans", cursive',
+      bodyFont: '"Times New Roman", Times, serif',
+    },
+  },
+  cyber: {
+    name: "cyber",
+    label: "1999 Cyber Neon & Magenta",
+    skyRgb: [18, 0, 38],
+    dividerColor: [0, 255, 255],
+    dividerStyle: "stars",
+    buttonBg: [64, 0, 96],
+    buttonFg: [0, 255, 255],
+    buttonAccent: [255, 0, 180],
+    bannerBg: [32, 0, 64],
+    bannerFg: [0, 255, 255],
+    bannerAccent: [255, 105, 180],
+    css: {
+      bodyBg: "#120026",
+      text: "#f0e6ff",
+      pageBg: "#1f003d",
+      panelBg: "#2e0057",
+      panelTitleBg: "#ff00aa",
+      panelTitleFg: "#ffffff",
+      heading: "#00ffff",
+      link: "#00ffff",
+      visited: "#ff69b4",
+      active: "#ffff00",
+      navLink: "#ff99ff",
+      accent: "#ff00ff",
+      counterFg: "#00ffff",
+      counterBg: "#000000",
+      borderLight: "#ff66ff",
+      borderDark: "#440066",
+      headingFont: 'Verdana, Arial, sans-serif',
+      bodyFont: 'Verdana, Arial, sans-serif',
+    },
+  },
+  matrix: {
+    name: "matrix",
+    label: "1999 Hacker Terminal Green",
+    skyRgb: [0, 14, 0],
+    dividerColor: [0, 255, 0],
+    dividerStyle: "diamond",
+    buttonBg: [0, 40, 0],
+    buttonFg: [0, 255, 0],
+    buttonAccent: [0, 180, 0],
+    bannerBg: [0, 24, 0],
+    bannerFg: [0, 255, 0],
+    bannerAccent: [144, 255, 144],
+    css: {
+      bodyBg: "#000a00",
+      text: "#00ff00",
+      pageBg: "#001400",
+      panelBg: "#002200",
+      panelTitleBg: "#005500",
+      panelTitleFg: "#ccffcc",
+      heading: "#33ff33",
+      link: "#66ff66",
+      visited: "#00aa44",
+      active: "#ffffff",
+      navLink: "#99ff99",
+      accent: "#00ff66",
+      counterFg: "#00ff00",
+      counterBg: "#000000",
+      borderLight: "#00cc00",
+      borderDark: "#003300",
+      headingFont: '"Courier New", Courier, monospace',
+      bodyFont: '"Courier New", Courier, monospace',
+    },
+  },
+  "pastel-y2k": {
+    name: "pastel-y2k",
+    label: "2001 Pastel Y2K Kawaii / Dollz",
+    skyRgb: [255, 224, 244],
+    dividerColor: [255, 105, 180],
+    dividerStyle: "stars",
+    buttonBg: [255, 153, 204],
+    buttonFg: [102, 0, 102],
+    buttonAccent: [153, 204, 255],
+    bannerBg: [255, 182, 222],
+    bannerFg: [102, 0, 102],
+    bannerAccent: [0, 102, 204],
+    css: {
+      bodyBg: "#ffe0f4",
+      text: "#330033",
+      pageBg: "#fff5fb",
+      panelBg: "#ffd6ee",
+      panelTitleBg: "#ff66b2",
+      panelTitleFg: "#ffffff",
+      heading: "#cc0099",
+      link: "#0066cc",
+      visited: "#9933cc",
+      active: "#ff0066",
+      navLink: "#990066",
+      accent: "#ff69b4",
+      counterFg: "#ff66cc",
+      counterBg: "#220022",
+      borderLight: "#ffffff",
+      borderDark: "#cc66aa",
+      headingFont: '"Comic Sans MS", "Comic Sans", cursive',
+      bodyFont: 'Verdana, Arial, sans-serif',
+    },
+  },
+};
+
+export function getTheme(name = "space") {
+  const key = String(name ?? "space").toLowerCase();
+  if (!THEMES[key]) {
+    throw new Error(`Unknown theme "${name}". Available themes: ${Object.keys(THEMES).join(", ")}`);
+  }
+  return THEMES[key];
+}
+
+export function getRetroSnippets(category) {
+  const all = {
+    marquee: {
+      description: "HTML5-compliant scrolling marquee (replaces deprecated <marquee>)",
+      html: '<div class="marquee"><div class="marquee-inner"><span class="rainbow big">*** WELCOME TO MY HOMEPAGE ***</span></div></div>',
+      css: ".marquee{overflow:hidden;white-space:nowrap;border:2px inset #808080;background:#000;padding:2px}.marquee-inner{display:inline-block;padding-left:100%;animation:marquee 12s linear infinite}@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-100%)}}",
+    },
+    blink: {
+      description: "HTML5-compliant blinking text (replaces deprecated <blink>)",
+      html: '<span class="blink hot">NEW!</span>',
+      css: ".blink{animation:blink 1s step-start infinite}@keyframes blink{50%{opacity:0}}",
+    },
+    rainbow: {
+      description: "Classic 7-stop rainbow gradient text",
+      html: '<span class="rainbow">WELCOME TO CYBERSPACE</span>',
+      css: ".rainbow{background:linear-gradient(90deg,#f00,#f80,#ff0,#0f0,#0ff,#00f,#f0f);-webkit-background-clip:text;background-clip:text;color:transparent}",
+    },
+    chromePanels: {
+      description: "Windows 95 / Netscape 3D beveled outset & inset chrome panels",
+      html: '<div class="panel"><div class="panel-title">~ Navigation ~</div><p>Links here</p></div>',
+      css: ".panel{border:3px outset #dfdfdf;background:#000099;padding:6px}.panel-title{border:2px inset #808080;background:#000080;color:#fff;font-family:Verdana,sans-serif;font-size:12px;text-align:center;margin-bottom:6px;padding:2px}.sunken{border:2px inset #808080}",
+    },
+    hitCounter: {
+      description: "Retro odometer hit counter with localStorage persistence + optional goatcounter/custom endpoint",
+      html: '<div class="counter-box"><span class="counter" id="hits">001337</span></div>',
+      css: '.counter{font-family:"Courier New",monospace;font-size:20px;color:#00ff00;background:#000;border:2px inset #808080;padding:2px 8px;letter-spacing:2px}',
+      js: `(function(){var el=document.getElementById('hits');if(!el)return;var key='retro_hits_'+(location.pathname||'index');var n=Number(localStorage.getItem(key)||1337)+1;localStorage.setItem(key,String(n));el.textContent=String(n).padStart(6,'0');})();`,
+    },
+    guestbook: {
+      description: "Interactive client-side guestbook persisted to localStorage (no dead backend required)",
+      html: '<form id="gb"><label>Name: <input name="name" required></label><br><label>Homepage: <input name="url" placeholder="http://..."></label><br><label>Message:<br><textarea name="msg" rows="3" cols="40" required></textarea></label><br><button type="submit">Sign Guestbook!</button></form><div id="gb-entries"></div>',
+      js: `(function(){var f=document.getElementById('gb'),list=document.getElementById('gb-entries');if(!f||!list)return;var key='retro_guestbook';function load(){try{return JSON.parse(localStorage.getItem(key)||'[]')}catch(e){return[]}}function esc(s){return String(s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}function render(){var rows=load();list.innerHTML=rows.map(function(r){return'<div class="panel" style="margin-top:8px"><b>'+esc(r.name)+'</b>'+(r.url?' (<a href="'+esc(r.url)+'" target="_blank" rel="noopener">site</a>)':'')+' <i>('+esc(r.date)+')</i><p>'+esc(r.msg)+'</p></div>'}).join('')}f.addEventListener('submit',function(e){e.preventDefault();var d=new FormData(f);var rows=load();rows.unshift({name:d.get('name'),url:d.get('url'),msg:d.get('msg'),date:new Date().toLocaleDateString()});localStorage.setItem(key,JSON.stringify(rows));f.reset();render();alert('Thanks for signing my guestbook!');});render();})();`,
+    },
+    webring: {
+      description: "Classic 90s WebRing navigation box",
+      html: '<table class="webring" align="center" cellpadding="4" cellspacing="0" border="1"><tr><td colspan="3" align="center"><b>~ Member of the 90s Retro WebRing ~</b></td></tr><tr><td><a href="#prev">&laquo; Prev</a></td><td align="center"><a href="#random">Random Site</a> | <a href="#list">List Sites</a></td><td align="right"><a href="#next">Next &raquo;</a></td></tr></table>',
+      css: ".webring{background:#000080;color:#ffff00;border:3px outset #dfdfdf;font-family:Verdana,sans-serif;font-size:11px;margin-top:10px}",
+    },
+    sparkleCursor: {
+      description: "Optional 90s trailing star cursor effect (vanilla JS, zero dependencies)",
+      js: `(function(){var colors=['#ff0','#0ff','#f0f','#0f0','#fff'];document.addEventListener('mousemove',function(e){if(Math.random()>0.35)return;var s=document.createElement('span');s.textContent='*';s.style.cssText='position:fixed;pointer-events:none;z-index:9999;font:bold 14px monospace;left:'+(e.clientX+4)+'px;top:'+(e.clientY+4)+'px;color:'+colors[Math.floor(Math.random()*colors.length)]+';transition:all .6s ease-out;';document.body.appendChild(s);requestAnimationFrame(function(){s.style.transform='translateY(14px)';s.style.opacity='0';});setTimeout(function(){s.remove()},620);});})();`,
+    },
+    crtScanlines: {
+      description: "Subtle CRT monitor scanline overlay",
+      css: "body::after{content:'';position:fixed;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(0,0,0,.18) 0 1px,transparent 1px 3px);z-index:9998}",
+    },
+    footer: {
+      description: "Authentic 1998 Netscape Navigator 4.0 footer",
+      html: '<font face="Verdana" size="1">Best viewed in Netscape Navigator 4.0 at 800x600 &bull; &copy; 1998 &bull; <a href="mailto:webmaster@example.com">Email the Webmaster!</a></font>',
+    },
+  };
+
+  if (category) {
+    const k = String(category);
+    if (!all[k]) {
+      throw new Error(`Unknown snippet "${category}". Available: ${Object.keys(all).join(", ")}`);
+    }
+    return { [k]: all[k] };
+  }
+  return all;
+}

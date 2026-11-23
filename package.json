@@ -1,0 +1,49 @@
+{
+  "name": "retro-web-kit",
+  "version": "1.0.0",
+  "description": "Stack-agnostic, zero-dependency CLI (rwk), MCP server, and portable Agent Skill toolbox for building authentic 90s/2000s GeoCities & Neocities websites.",
+  "type": "module",
+  "bin": {
+    "rwk": "./src/cli.mjs",
+    "retro-web-kit": "./src/cli.mjs",
+    "retro-web-kit-mcp": "./src/mcp.mjs",
+    "rwk-mcp": "./src/mcp.mjs"
+  },
+  "exports": {
+    ".": "./src/core/index.mjs"
+  },
+  "files": [
+    "src/",
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "mcp": "node src/mcp.mjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "retro",
+    "geocities",
+    "neocities",
+    "90s",
+    "y2k",
+    "website",
+    "mcp",
+    "cli",
+    "agent-skills"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fabzerito/retro-web-kit.git"
+  },
+  "homepage": "https://github.com/Fabzerito/retro-web-kit#readme",
+  "bugs": {
+    "url": "https://github.com/Fabzerito/retro-web-kit/issues"
+  },
+  "author": "Fabzerito",
+  "license": "MIT"
+}
